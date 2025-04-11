@@ -2,4 +2,4 @@
 # Problem Link : https://zerojudge.tw/ShowProblem?problemid=a001
 
 name = input()
-print('hello,' name)
+print('hello,', name)
