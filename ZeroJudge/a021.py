@@ -1,7 +1,7 @@
 # ZeroJudge a021: Big number calculation
 # Problem Link: https://zerojudge.tw/ShowProblem?problemid=a021
 
-a, b, c = input(),split()
+a, b, c = input().split()
 a = int(a)
 c = int(c)
 
