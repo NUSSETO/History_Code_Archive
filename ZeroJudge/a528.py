@@ -8,8 +8,11 @@ while True:
 
     for i in range(n):
       mylist.append(int(input())) # Input numbers that need to be ordered
-    mylist.sort()
+
+    # The following code can be replace with 
+    # for num in sorted(mylist): print(num)
     
+    mylist.sort()
     for i in range(n):
       print(mylist[i])
     
