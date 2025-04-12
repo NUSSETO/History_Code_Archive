@@ -3,3 +3,4 @@
 
 a, b =input().split()
 print(a, 'and', b, 'sitting in the tree.')
+# we can also use print(f'{a} and {b} sitting in the tree.')
