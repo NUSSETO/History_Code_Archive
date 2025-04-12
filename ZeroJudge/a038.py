@@ -6,7 +6,7 @@ n = int(input())
 if n == 0: # No need to reverse
   print(n) 
 
-while n%10 == 0: # 0 cannot be in first position after reversing
+while n%10 == 0: # Avoid leading 0 after reversal
   n //= 10
 
 while n != 0:
