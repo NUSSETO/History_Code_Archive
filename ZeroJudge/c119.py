@@ -7,7 +7,7 @@ while True:
     fac = 1
     sum = 0
 
-    # Factorial
+    # Factorial, or just import math and use math.factorial()
     for i in range(1, n+1):
       fac *= i
 
