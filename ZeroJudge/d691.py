@@ -1,4 +1,4 @@
-# ZeroJudge d961: Simply Subsets
+# ZeroJudge d691: Simply Subsets
 # Problem Link: https://zerojudge.tw/ShowProblem?problemid=d691
 
 while True:
