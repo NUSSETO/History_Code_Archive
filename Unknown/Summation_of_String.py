@@ -1,4 +1,5 @@
 # Sum up the string number by number
+# The whole code can be replaced with: print(sum(int(i) for i in input()))
 
 num_str = input()
 num_sum = 0
