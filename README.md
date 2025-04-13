@@ -5,7 +5,7 @@ This repository preserves a large collection of code I wrote during my undergrad
 ## Structure
 
 - `ZeroJudge/` – Solutions to problems from the ZeroJudge. File names follow original problem IDs where possible.
-- `Course_Homework/` – Coursework submissions from programming-related classes.
+- `Coursework/` – Coursework submissions from programming-related classes.
 - `Unknown/` – Code files with unclear problem context, retained for completeness and future annotation.
 
 ## Notes
