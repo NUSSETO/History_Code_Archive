@@ -1,6 +1,7 @@
 # Check the year is common year ot leap year
+# Might as well just make this a function.
 
-year = int(input()) # Only in A.D.
+year = int(input('Enter a year (A.D.)')) 
 
 if year < 0:
   print('Error')
