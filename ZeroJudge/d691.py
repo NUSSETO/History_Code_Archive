@@ -7,9 +7,9 @@ while True:
     b = set(map(int, input().split()))
     if a == b:
       print('A equals B.')
-    elif a.issubset(b) == True:
+    elif a.issubset(b):
       print('A is a proper subset of B.')
-    elif b.issubset(a) == True:
+    elif b.issubset(a):
       print('B is a proper subset of A.')
     elif a.intersection(b) != set():
       print('I \'m confused!')
