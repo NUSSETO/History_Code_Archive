@@ -7,7 +7,7 @@ while True:
     mylist = []
     mylist.append(set(map(int, input().split()))) # The elements in the list are sets.
     
-    for i range(num_relation - 1): # Since we already appen one set into the list.
+    for i in range(num_relation - 1): # Since we already appen one set into the list.
       relation_set = set(map(int, input().split()))
       counter = 0 # Check how many times the set have intersected with the sets in list.
       union_set = [] # Store sets in list that intersected with the current set.
