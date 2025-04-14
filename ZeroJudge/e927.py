@@ -3,8 +3,8 @@
 
 while True:
   try:
-    mylist = []
     mystring = input()
+    mylist = []
     for i in range(len(mystring)):
       mylist.append(mystring[i])
       
@@ -16,3 +16,13 @@ while True:
       print(mylist[i], end = '')
   except:
     break # End of input
+
+# Better version
+#try:
+  #while True:
+    #mystring = input()
+    #if not mystring:
+      #break
+    #print(''.join(sorted(mystring)))
+#except EOFError:
+  #pass
