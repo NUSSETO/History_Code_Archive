@@ -13,7 +13,7 @@ def fib(n):
       sum_of_pq = p + q
       q = p
       p = sum_of_pq
-  return s
+  return sum_of_pq
 
 while True:
   try:
