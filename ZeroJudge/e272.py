@@ -18,6 +18,6 @@ def fib(n):
 while True:
   try:
     a, b = map(int, input().split())
-    print(math.gcd(fib(a), fib(b)))
+    print(fib(math.gcd(a, b))) # gcd(F(m),F(n))=F(gcd(m,n))
   except:
     break # End of input
