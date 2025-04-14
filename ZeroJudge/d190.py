@@ -3,7 +3,7 @@
 
 while True:
   try:
-    n = input('How many people in this data?')
+    n = int(input()) # Don't really nedd it in this case
     mylist = list(map(int, input().split()))
     mylist.sort()
     print(*mylist)
