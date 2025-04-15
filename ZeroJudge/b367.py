@@ -9,6 +9,8 @@ for i in range(num_data):
 
   length, width = map(int, input().split()) # Don't really need width in this case
 
+  # The whole flipping process can be written like: list_flipped = [row[::-1] for row in list_original[::-1]]
+
   for j in range(length):
     list_original.append(list(map(int, input().split())))
     list_flipped.append(list(list_original[j]))
