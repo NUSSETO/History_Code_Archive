@@ -53,7 +53,7 @@ while n != 0:
     fix_set_contain = set(list_set[i])
     for j in range(num_set):
       if i != j:
-        change_set_contain = set(list[j])
+        change_set_contain = set(list_set[j])
         if fix_set_contain.issuperset(change_set_contain):
           print(f'{letter_label(i)} contains {letter_label(j)}')
         else:
