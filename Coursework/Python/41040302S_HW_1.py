@@ -1,3 +1,4 @@
+# What tickets to buy
 age = int(input('How old are you?'))
 
 if age <= 0 or age > 123: # Since oldest person ever is under 123 years old.
