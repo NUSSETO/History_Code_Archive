@@ -10,9 +10,9 @@ score_mean = df[cols].mean(axis = 1)
 df['Total'] = score_sum
 df['Average'] = score_mean
 
-df = df.sort_value(by = 'Total', ascending = False)
+df = df.sort_values(by = 'Total', ascending = False)
 df['Rank'] = ['{:02d}'.format(i) for i in range(1, 51)]
-df = df.sort_value(by = 'Student ID', ascending = True)
+df = df.sort_values(by = 'Student ID', ascending = True)
 
 print(df)
 print(f'Average score for each subjects:{df[cols].mean()}')
