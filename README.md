@@ -1,19 +1,21 @@
-# NTNU_Code_Archive
+# History Code Archive
 
-This repository preserves a large collection of code I wrote during my undergraduate studies in mathematics at NTNU.
+This repository contains code I wrote in the past.  
+It serves as a record of my early programming journey and learning progress.
 
 ## Structure
 
-- `ZeroJudge/` – Solutions to problems from the ZeroJudge. File names follow original problem IDs where possible.
-- `Coursework/` – Coursework submissions from programming-related classes.
-- `Unknown/` – Code files with unclear problem context, retained for completeness and future annotation.
+- `ZeroJudge/` – Solutions to problems from ZeroJudge, with filenames matching original problem IDs.
+- `Coursework/` – Assignments from programming-related courses.
+- `Unknown/` – Code files with unclear context, preserved for completeness.
 
 ## Notes
 
-- Problem statements for many files are no longer available. Code has been preserved as is, with minimal formatting cleanup.
-- This archive is not intended to represent my current skill level but is retained as a record of foundational learning and progression.
-- Selected files may be annotated or refactored over time as part of a code review and retrospective learning process.
+- Problem statements for many files are no longer available; code is preserved as-is with minimal formatting.
+- This archive reflects early stages of learning and does not represent current coding practices or proficiency.
+- Selected files may be annotated or revised over time as part of retrospective learning.
 
-## Author
-Jason Huang | NTNU, BSc in Mathematics | Spring 2023
+## About me
 
+Jason Huang  
+BSc in Mathematics, NTNU 
